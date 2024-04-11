@@ -18,18 +18,23 @@ public class XMLWriter {
             .enable(SerializationFeature.INDENT_OUTPUT);
 
     public void writeByCondition(List<Movie> movies, MovieFilter condition) {
-        Map<String, Integer> statistic;
+        Map<Object, Long> statistic;
 
         switch (condition) {
             case STATISTIC_BY_GENRE ->
-                statistic = movies.stream()
-                        .flatMap(movie -> movie.getGenres().stream())
-                        .collect(Collectors.toMap(genre -> genre, genre -> 1, Integer::sum));
+                    statistic = movies.stream()
+                            .flatMap(movie -> movie.getGenres().stream().map(genre -> new AbstractMap.SimpleEntry<>(genre, 1L)))
+                            .collect(Collectors.groupingBy(AbstractMap.SimpleEntry::getKey, Collectors.counting()));
 
             case STATISTIC_BY_DIRECTOR ->
-                statistic = movies.stream()
-                        .collect(Collectors.groupingBy(movie -> movie.getDirector().getFullName(),
-                                Collectors.summingInt(movie -> 1)));
+                    statistic = movies.stream()
+                            .collect(Collectors.groupingBy(
+                                    movie -> movie.getDirector().getFullName(),
+                                    Collectors.counting()));
+
+            case STATISTIC_BY_YEAR_COUNT ->
+                    statistic = movies.stream()
+                            .collect(Collectors.groupingBy(Movie::getTitle, Collectors.counting()));
 
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }

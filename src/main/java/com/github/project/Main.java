@@ -13,5 +13,6 @@ public class Main {
         xmlWriter.writeByConditionWithValue(jsonReader.readAllFiles(path), MovieFilter.FILTER_BY_GENRE_COUNT, "3");
         xmlWriter.writeByCondition(jsonReader.readAllFiles(path), MovieFilter.STATISTIC_BY_GENRE);
         xmlWriter.writeByCondition(jsonReader.readAllFiles(path), MovieFilter.STATISTIC_BY_DIRECTOR);
+        xmlWriter.writeByCondition(jsonReader.readAllFiles(path), MovieFilter.STATISTIC_BY_YEAR);
     }
 }

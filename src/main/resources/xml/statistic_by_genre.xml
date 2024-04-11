@@ -1,26 +1,26 @@
 <ListN>
   <item>
     <value>Drama</value>
-    <count>6</count>
+    <count>12</count>
   </item>
   <item>
     <value>Action</value>
-    <count>4</count>
+    <count>8</count>
   </item>
   <item>
     <value>Sci-Fi</value>
-    <count>2</count>
+    <count>4</count>
   </item>
   <item>
     <value>Adventure</value>
-    <count>2</count>
+    <count>4</count>
   </item>
   <item>
     <value>Crime</value>
-    <count>2</count>
+    <count>4</count>
   </item>
   <item>
     <value>Romance</value>
-    <count>2</count>
+    <count>4</count>
   </item>
 </ListN>
