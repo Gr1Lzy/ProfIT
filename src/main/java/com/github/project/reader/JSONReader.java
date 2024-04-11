@@ -11,14 +11,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JSONReader implements Reader {
-    private static final String PATH = "./src/main/resources/json/";
+public class JSONReader {
+
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final JSONFileFinder jsonFileFinder = new JSONFileFinder();
 
-    public List<Movie> readAllFiles() {
+    public List<Movie> readAllFiles(String path) {
         List<Movie> movies = new ArrayList<>();
-        List<String> fileNames = jsonFileFinder.findAll(PATH);
+        List<String> fileNames = jsonFileFinder.findAll(path);
 
         for (String fileName : fileNames) {
             movies.addAll(read(new File(fileName)));
@@ -27,7 +27,6 @@ public class JSONReader implements Reader {
         return movies;
     }
 
-    @Override
     public List<Movie> read(File file) {
         try (MappingIterator<Movie> iterator = objectMapper
                 .readerFor(Movie.class).readValues(file)) {

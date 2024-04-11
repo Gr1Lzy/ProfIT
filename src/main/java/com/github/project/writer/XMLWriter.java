@@ -5,39 +5,60 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.github.project.MovieFilter;
 import com.github.project.exeption.MovieWriteException;
 import com.github.project.model.Movie;
+import com.github.project.model.xml.Item;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class XMLWriter implements Writer {
+public class XMLWriter {
     private static final String PATH = "./src/main/resources/xml/";
+    private final XmlMapper xmlMapper = (XmlMapper) new XmlMapper()
+            .enable(SerializationFeature.INDENT_OUTPUT);
 
-    @Override
-    public void write(List<Movie> movies) {
-        XmlMapper xmlMapper = new XmlMapper();
-        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
+    public void writeByCondition(List<Movie> movies, MovieFilter condition) {
+        Map<String, Integer> statistic;
+
+        switch (condition) {
+            case STATISTIC_BY_GENRE ->
+                statistic = movies.stream()
+                        .flatMap(movie -> movie.getGenres().stream())
+                        .collect(Collectors.toMap(genre -> genre, genre -> 1, Integer::sum));
+
+            case STATISTIC_BY_DIRECTOR ->
+                statistic = movies.stream()
+                        .collect(Collectors.groupingBy(movie -> movie.getDirector().getFullName(),
+                                Collectors.summingInt(movie -> 1)));
+
+            default -> throw new IllegalStateException("Unexpected value: " + condition);
+        }
+
+        List<Item> items = statistic.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .map(entry -> new Item(entry.getKey(), entry.getValue()))
+                .toList();
 
         try {
-            xmlMapper.writeValue(new File(PATH + "movies.xml"), movies);
+            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), items);
         } catch (IOException e) {
-            throw new MovieWriteException("Cannot write value", e);
+            throw new MovieWriteException("Cannot write movie ", e);
         }
     }
 
-    public void writeByCondition(List<Movie> movies, MovieFilter condition, String value) {
+    public void writeByConditionWithValue(List<Movie> movies, MovieFilter condition, String value) {
         List<Movie> filteredMovies;
 
         switch (condition) {
             case FILTER_BY_YEAR_LESS ->
                     filteredMovies = movies.stream()
-                        .filter(movie -> movie.getYear() < Integer.parseInt(value))
-                        .toList();
+                            .filter(movie -> movie.getYear() < Integer.parseInt(value))
+                            .toList();
 
             case FILTER_BY_YEAR_MORE ->
                     filteredMovies = movies.stream()
-                        .filter(movie -> movie.getYear() > Integer.parseInt(value))
-                        .toList();
+                            .filter(movie -> movie.getYear() > Integer.parseInt(value))
+                            .toList();
 
             case FILTER_BY_DIRECTOR ->
                     filteredMovies = movies.stream()
@@ -49,7 +70,7 @@ public class XMLWriter implements Writer {
                             .filter(movie -> movie.getGenres().size() == Integer.parseInt(value))
                             .toList();
 
-            case FILTER_BY_GENRE ->
+            case FILTER_BY_GENRE_NAME ->
                     filteredMovies = movies.stream()
                             .filter(movie -> movie.getGenres().stream().anyMatch(genre -> genre.equals(value)))
                             .toList();
@@ -57,8 +78,10 @@ public class XMLWriter implements Writer {
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }
 
-        write(filteredMovies);
-
-
+        try {
+            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), filteredMovies);
+        } catch (IOException e) {
+            throw new MovieWriteException("Cannot write movie ", e);
+        }
     }
 }
