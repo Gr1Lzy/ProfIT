@@ -1,6 +1,6 @@
 package com.github.project.reader;
 
-import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.project.exeption.MovieReadException;
 import com.github.project.model.Movie;
@@ -13,7 +13,8 @@ import java.util.List;
 
 public class JSONReader implements Reader {
     private static final String PATH = "./src/main/resources/json/";
-    JSONFileFinder jsonFileFinder = new JSONFileFinder();
+    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final JSONFileFinder jsonFileFinder = new JSONFileFinder();
 
     public List<Movie> readAllFiles() {
         List<Movie> movies = new ArrayList<>();
@@ -28,11 +29,16 @@ public class JSONReader implements Reader {
 
     @Override
     public List<Movie> read(File file) {
-        ObjectMapper objectMapper = new ObjectMapper();
+        try (MappingIterator<Movie> iterator = objectMapper
+                .readerFor(Movie.class).readValues(file)) {
 
-        try {
-            TypeReference<List<Movie>> typeReference = new TypeReference<>() {};
-            return objectMapper.readValue(file, typeReference);
+            List<Movie> movies = new ArrayList<>();
+
+            while (iterator.hasNext()) {
+                movies.add(iterator.next());
+            }
+
+            return movies;
         } catch (IOException e) {
             throw new MovieReadException("Cannot read value", e);
         }

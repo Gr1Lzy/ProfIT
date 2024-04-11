@@ -1,7 +1,6 @@
 package com.github.project.model;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -9,7 +8,6 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@AllArgsConstructor
 public class Director {
     @JacksonXmlProperty(localName = "name")
     String name;
@@ -19,6 +17,10 @@ public class Director {
 
     public Director(String fullName) {
         parse(fullName);
+    }
+
+    public String getFullName() {
+        return name + " " + surname;
     }
 
     private void parse(String fullName) {

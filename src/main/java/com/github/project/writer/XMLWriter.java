@@ -24,6 +24,7 @@ public class XMLWriter implements Writer {
             throw new MovieWriteException("Cannot write value", e);
         }
     }
+
     public void writeByCondition(List<Movie> movies, MovieFilter condition, String value) {
         List<Movie> filteredMovies;
 
@@ -32,25 +33,32 @@ public class XMLWriter implements Writer {
                     filteredMovies = movies.stream()
                         .filter(movie -> movie.getYear() < Integer.parseInt(value))
                         .toList();
+
             case FILTER_BY_YEAR_MORE ->
                     filteredMovies = movies.stream()
                         .filter(movie -> movie.getYear() > Integer.parseInt(value))
                         .toList();
+
             case FILTER_BY_DIRECTOR ->
                     filteredMovies = movies.stream()
-                            .filter(movie -> movie.getDirector().getName().equals(value))
+                            .filter(movie -> movie.getDirector().getFullName().equals(value))
                             .toList();
+
             case FILTER_BY_GENRE_COUNT ->
                     filteredMovies = movies.stream()
                             .filter(movie -> movie.getGenres().size() == Integer.parseInt(value))
                             .toList();
+
             case FILTER_BY_GENRE ->
                     filteredMovies = movies.stream()
                             .filter(movie -> movie.getGenres().stream().anyMatch(genre -> genre.equals(value)))
                             .toList();
+
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }
 
         write(filteredMovies);
+
+
     }
 }

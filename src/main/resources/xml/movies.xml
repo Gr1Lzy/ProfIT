@@ -1,41 +1,320 @@
-<ListN>
+<ArrayList>
   <item>
     <title>Inception</title>
     <year>2010</year>
     <genres>
-      <genres>Action</genres>
-      <genres>Adventure</genres>
-      <genres>Sci-Fi</genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
     </genres>
     <director>
+      <fullName>Christopher Nolan</fullName>
       <name>Christopher</name>
       <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </item>
+  <item>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </item>
+  <item>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
     </director>
   </item>
   <item>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
-      <genres>Action</genres>
-      <genres>Crime</genres>
-      <genres>Drama</genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
     </genres>
     <director>
+      <fullName>Christopher Nolan</fullName>
       <name>Christopher</name>
       <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Matrix</title>
+    <year>1999</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Lana Wachowski</fullName>
+      <name>Lana</name>
+      <surname>Wachowski</surname>
     </director>
   </item>
   <item>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
-      <genres>Action</genres>
-      <genres>Adventure</genres>
-      <genres>Drama</genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
     </genres>
     <director>
+      <fullName>Peter Jackson</fullName>
       <name>Peter</name>
       <surname>Jackson</surname>
     </director>
   </item>
-</ListN>
+  <item>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </item>
+  <item>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </item>
+  <item>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </item>
+  <item>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Matrix</title>
+    <year>1999</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Lana Wachowski</fullName>
+      <name>Lana</name>
+      <surname>Wachowski</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </item>
+  <item>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </item>
+  <item>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </item>
+  <item>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </item>
+  <item>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Matrix</title>
+    <year>1999</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Lana Wachowski</fullName>
+      <name>Lana</name>
+      <surname>Wachowski</surname>
+    </director>
+  </item>
+  <item>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </item>
+  <item>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </item>
+</ArrayList>

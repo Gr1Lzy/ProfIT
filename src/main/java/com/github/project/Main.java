@@ -8,6 +8,6 @@ public class Main {
         JSONReader jsonReader = new JSONReader();
         XMLWriter xmlWriter = new XMLWriter();
 
-        xmlWriter.writeByCondition(jsonReader.readAllFiles(), MovieFilter.FILTER_BY_GENRE_COUNT, "3");
+        xmlWriter.write(jsonReader.readAllFiles());
     }
 }
