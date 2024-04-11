@@ -12,12 +12,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JSONReader implements Reader {
-    private static final String PATH = "./src/main/resources/json";
+    private static final String PATH = "./src/main/resources/json/";
     JSONFileFinder jsonFileFinder = new JSONFileFinder();
 
     public List<Movie> readAllFiles() {
         List<Movie> movies = new ArrayList<>();
         List<String> fileNames = jsonFileFinder.findAll(PATH);
+
         for (String fileName : fileNames) {
             movies.addAll(read(new File(fileName)));
         }

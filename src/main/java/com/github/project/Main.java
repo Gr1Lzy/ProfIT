@@ -1,16 +1,13 @@
 package com.github.project;
 
-import com.github.project.model.Movie;
 import com.github.project.reader.JSONReader;
-
-import java.util.List;
+import com.github.project.writer.XMLWriter;
 
 public class Main {
     public static void main(String[] args) {
         JSONReader jsonReader = new JSONReader();
-        List<Movie> movies = jsonReader.readAllFiles();
-        for (Movie movie : movies) {
-            System.out.println(movie.toString());
-        }
+        XMLWriter xmlWriter = new XMLWriter();
+
+        xmlWriter.writeByCondition(jsonReader.readAllFiles(), MovieFilter.FILTER_BY_GENRE_COUNT, "3");
     }
 }
