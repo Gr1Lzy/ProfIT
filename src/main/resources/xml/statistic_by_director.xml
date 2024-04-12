@@ -1,34 +1,6 @@
 <statistics>
   <item>
-    <value>Christopher Nolan</value>
-    <count>21</count>
-  </item>
-  <item>
-    <value>Peter Jackson</value>
-    <count>13</count>
-  </item>
-  <item>
-    <value>Lana Wachowski</value>
-    <count>13</count>
-  </item>
-  <item>
-    <value>James Cameron</value>
-    <count>13</count>
-  </item>
-  <item>
-    <value>Frank Darabont</value>
-    <count>8</count>
-  </item>
-  <item>
-    <value>Robert Zemeckis</value>
-    <count>8</count>
-  </item>
-  <item>
-    <value>Quentin Tarantino</value>
-    <count>8</count>
-  </item>
-  <item>
-    <value>David Thompson</value>
+    <value>Alexandra Lee</value>
     <count>4</count>
   </item>
   <item>
@@ -36,19 +8,35 @@
     <count>4</count>
   </item>
   <item>
+    <value>Christopher Nolan</value>
+    <count>21</count>
+  </item>
+  <item>
     <value>Daniel Evans</value>
     <count>4</count>
   </item>
   <item>
-    <value>Sophie Roberts</value>
+    <value>David Thompson</value>
     <count>4</count>
   </item>
   <item>
-    <value>Alexandra Lee</value>
-    <count>4</count>
+    <value>Frank Darabont</value>
+    <count>8</count>
   </item>
   <item>
-    <value>Olivia Baker</value>
+    <value>Isabella Martinez</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>James Cameron</value>
+    <count>13</count>
+  </item>
+  <item>
+    <value>Lana Wachowski</value>
+    <count>13</count>
+  </item>
+  <item>
+    <value>Matthew Clarke</value>
     <count>1</count>
   </item>
   <item>
@@ -56,15 +44,27 @@
     <count>1</count>
   </item>
   <item>
-    <value>Matthew Clarke</value>
+    <value>Olivia Baker</value>
     <count>1</count>
+  </item>
+  <item>
+    <value>Peter Jackson</value>
+    <count>13</count>
+  </item>
+  <item>
+    <value>Quentin Tarantino</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>Robert Zemeckis</value>
+    <count>8</count>
   </item>
   <item>
     <value>Sophia Nguyen</value>
     <count>1</count>
   </item>
   <item>
-    <value>Isabella Martinez</value>
-    <count>1</count>
+    <value>Sophie Roberts</value>
+    <count>4</count>
   </item>
 </statistics>

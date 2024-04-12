@@ -15,9 +15,15 @@ public class Statistic {
     }
 
     public Map<String, Long> getByDirector(List<Movie> movies) {
-        return  movies.stream()
+        return movies.stream()
                 .collect(Collectors.groupingBy(
                         movie -> movie.getDirector().getFullName(),
                         Collectors.counting()));
+    }
+
+    public Map<String, Long> getByYear(List<Movie> movies) {
+        return movies.stream().collect(Collectors.groupingBy(
+                movie -> String.valueOf(movie.getYear()),
+                Collectors.counting()));
     }
 }

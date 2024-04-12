@@ -27,9 +27,11 @@ class XMLWriterTest {
     void testCreateStatisticXML() {
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_GENRE);
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_DIRECTOR);
+        xmlWriter.writeByCondition(movieList, STATISTIC_BY_YEAR);
 
         assertTrue(new File("src/main/resources/xml/statistic_by_director.xml").exists());
         assertTrue(new File("src/main/resources/xml/statistic_by_genre.xml").exists());
+        assertTrue(new File("src/main/resources/xml/statistic_by_year.xml").exists());
     }
 
     @Test

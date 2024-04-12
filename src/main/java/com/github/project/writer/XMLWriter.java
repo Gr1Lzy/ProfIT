@@ -28,11 +28,14 @@ public class XMLWriter {
 
             case STATISTIC_BY_DIRECTOR -> statisticInfo = statistic.getByDirector(movies);
 
+            case STATISTIC_BY_YEAR -> statisticInfo = statistic.getByYear(movies);
+
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }
 
         List<Item> items = statisticInfo.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .sorted(Map.Entry.comparingByKey())
                 .map(entry -> new Item(entry.getKey(), entry.getValue()))
                 .toList();
 

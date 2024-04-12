@@ -1,22 +1,10 @@
 <statistics>
   <item>
-    <value>Drama</value>
-    <count>74</count>
-  </item>
-  <item>
     <value>Action</value>
     <count>57</count>
   </item>
   <item>
-    <value>Sci-Fi</value>
-    <count>30</count>
-  </item>
-  <item>
     <value>Adventure</value>
-    <count>26</count>
-  </item>
-  <item>
-    <value>Romance</value>
     <count>26</count>
   </item>
   <item>
@@ -24,12 +12,12 @@
     <count>21</count>
   </item>
   <item>
-    <value>Thriller</value>
-    <count>10</count>
+    <value>Drama</value>
+    <count>74</count>
   </item>
   <item>
-    <value>Mystery</value>
-    <count>10</count>
+    <value>Family</value>
+    <count>1</count>
   </item>
   <item>
     <value>Fantasy</value>
@@ -40,11 +28,23 @@
     <count>4</count>
   </item>
   <item>
-    <value>War</value>
-    <count>4</count>
+    <value>Mystery</value>
+    <count>10</count>
   </item>
   <item>
-    <value>Family</value>
-    <count>1</count>
+    <value>Romance</value>
+    <count>26</count>
+  </item>
+  <item>
+    <value>Sci-Fi</value>
+    <count>30</count>
+  </item>
+  <item>
+    <value>Thriller</value>
+    <count>10</count>
+  </item>
+  <item>
+    <value>War</value>
+    <count>4</count>
   </item>
 </statistics>
