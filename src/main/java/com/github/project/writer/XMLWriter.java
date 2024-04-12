@@ -6,11 +6,12 @@ import com.github.project.MovieFilter;
 import com.github.project.exeption.MovieWriteException;
 import com.github.project.model.Movie;
 import com.github.project.model.xml.Item;
+import com.github.project.util.Filter;
+import com.github.project.util.Statistic;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class XMLWriter {
     private static final String PATH = "./src/main/resources/xml/";
@@ -18,28 +19,18 @@ public class XMLWriter {
             .enable(SerializationFeature.INDENT_OUTPUT);
 
     public void writeByCondition(List<Movie> movies, MovieFilter condition) {
-        Map<Object, Long> statistic;
+        Map<String, Long> statisticInfo;
+        Statistic statistic = new Statistic();
 
         switch (condition) {
-            case STATISTIC_BY_GENRE ->
-                    statistic = movies.stream()
-                            .flatMap(movie -> movie.getGenres().stream().map(genre -> new AbstractMap.SimpleEntry<>(genre, 1L)))
-                            .collect(Collectors.groupingBy(AbstractMap.SimpleEntry::getKey, Collectors.counting()));
+            case STATISTIC_BY_GENRE -> statisticInfo = statistic.getByGenre(movies);
 
-            case STATISTIC_BY_DIRECTOR ->
-                    statistic = movies.stream()
-                            .collect(Collectors.groupingBy(
-                                    movie -> movie.getDirector().getFullName(),
-                                    Collectors.counting()));
-
-            case STATISTIC_BY_YEAR_COUNT ->
-                    statistic = movies.stream()
-                            .collect(Collectors.groupingBy(Movie::getTitle, Collectors.counting()));
+            case STATISTIC_BY_DIRECTOR -> statisticInfo = statistic.getByDirector(movies);
 
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }
 
-        List<Item> items = statistic.entrySet().stream()
+        List<Item> items = statisticInfo.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .map(entry -> new Item(entry.getKey(), entry.getValue()))
                 .toList();
@@ -54,31 +45,18 @@ public class XMLWriter {
     public void writeByConditionWithValue(List<Movie> movies, MovieFilter condition, String value) {
         List<Movie> filteredMovies;
 
+        Filter filter = new Filter();
+
         switch (condition) {
-            case FILTER_BY_YEAR_LESS ->
-                    filteredMovies = movies.stream()
-                            .filter(movie -> movie.getYear() < Integer.parseInt(value))
-                            .toList();
+            case FILTER_BY_YEAR_LESS -> filteredMovies = filter.filterByYearLess(movies, value);
 
-            case FILTER_BY_YEAR_MORE ->
-                    filteredMovies = movies.stream()
-                            .filter(movie -> movie.getYear() > Integer.parseInt(value))
-                            .toList();
+            case FILTER_BY_YEAR_MORE -> filteredMovies = filter.filterByYearMore(movies, value);
 
-            case FILTER_BY_DIRECTOR ->
-                    filteredMovies = movies.stream()
-                            .filter(movie -> movie.getDirector().getFullName().equals(value))
-                            .toList();
+            case FILTER_BY_DIRECTOR -> filteredMovies = filter.filterByDirector(movies, value);
 
-            case FILTER_BY_GENRE_COUNT ->
-                    filteredMovies = movies.stream()
-                            .filter(movie -> movie.getGenres().size() == Integer.parseInt(value))
-                            .toList();
+            case FILTER_BY_GENRE_COUNT -> filteredMovies = filter.filterByGenreCount(movies, value);
 
-            case FILTER_BY_GENRE_NAME ->
-                    filteredMovies = movies.stream()
-                            .filter(movie -> movie.getGenres().stream().anyMatch(genre -> genre.equals(value)))
-                            .toList();
+            case FILTER_BY_GENRE_NAME -> filteredMovies = filter.filterByGenreName(movies, value);
 
             default -> throw new IllegalStateException("Unexpected value: " + condition);
         }
