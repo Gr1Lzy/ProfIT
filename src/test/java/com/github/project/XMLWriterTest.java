@@ -24,7 +24,7 @@ class XMLWriterTest {
     }
 
     @Test
-    void testStatistic() {
+    void testCreateStatisticXML() {
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_GENRE);
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_DIRECTOR);
 
@@ -33,7 +33,7 @@ class XMLWriterTest {
     }
 
     @Test
-    void testFilter() {
+    void testCreateFilterWithValueXML() {
         xmlWriter.writeByConditionWithValue(movieList, FILTER_BY_YEAR_LESS, "2000");
         xmlWriter.writeByConditionWithValue(movieList, FILTER_BY_YEAR_MORE, "2000");
         xmlWriter.writeByConditionWithValue(movieList, FILTER_BY_GENRE_NAME, "Drama");

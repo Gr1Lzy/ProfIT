@@ -4,8 +4,9 @@ import java.io.File;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
-public class JSONThreadStat {
+public class JSONThreadStatistic {
     private final JSONParser jsonParser = new JSONParser();
     private final JSONFileFinder jsonFileFinder = new JSONFileFinder();
 
@@ -13,8 +14,8 @@ public class JSONThreadStat {
         String path = "./src/main/resources/json/";
         int[] threadCounts = {1, 2, 4, 8};
 
-        JSONThreadStat jsonThreadStat = new JSONThreadStat();
-        jsonThreadStat.start(path, threadCounts);
+        JSONThreadStatistic jsonThreadStatistic = new JSONThreadStatistic();
+        jsonThreadStatistic.start(path, threadCounts);
     }
 
     public void start(String path, int[] threadCounts) {
@@ -37,5 +38,12 @@ public class JSONThreadStat {
         }
 
         executor.shutdown();
+        try {
+            if (!executor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS)) {
+                System.out.println("Some tasks were not terminated");
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
 }

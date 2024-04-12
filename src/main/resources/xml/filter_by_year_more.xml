@@ -182,6 +182,370 @@
     </director>
   </movie>
   <movie>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Shadows of Destiny</title>
+    <year>2018</year>
+    <genres>
+      <genre>Fantasy</genre>
+      <genre>Adventure</genre>
+      <genre>Action</genre>
+    </genres>
+    <director>
+      <fullName>Sophie Roberts</fullName>
+      <name>Sophie</name>
+      <surname>Roberts</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Into the Abyss</title>
+    <year>2021</year>
+    <genres>
+      <genre>Thriller</genre>
+      <genre>Mystery</genre>
+      <genre>Horror</genre>
+    </genres>
+    <director>
+      <fullName>Daniel Evans</fullName>
+      <name>Daniel</name>
+      <surname>Evans</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Infinite Dreams</title>
+    <year>2023</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Thriller</genre>
+      <genre>Mystery</genre>
+    </genres>
+    <director>
+      <fullName>Benjamin Harris</fullName>
+      <name>Benjamin</name>
+      <surname>Harris</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Shadows of Destiny</title>
+    <year>2018</year>
+    <genres>
+      <genre>Fantasy</genre>
+      <genre>Adventure</genre>
+      <genre>Action</genre>
+    </genres>
+    <director>
+      <fullName>Sophie Roberts</fullName>
+      <name>Sophie</name>
+      <surname>Roberts</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Into the Abyss</title>
+    <year>2021</year>
+    <genres>
+      <genre>Thriller</genre>
+      <genre>Mystery</genre>
+      <genre>Horror</genre>
+    </genres>
+    <director>
+      <fullName>Daniel Evans</fullName>
+      <name>Daniel</name>
+      <surname>Evans</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Infinite Dreams</title>
+    <year>2023</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Thriller</genre>
+      <genre>Mystery</genre>
+    </genres>
+    <director>
+      <fullName>Benjamin Harris</fullName>
+      <name>Benjamin</name>
+      <surname>Harris</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
     <title>The Enigma Code</title>
     <year>2015</year>
     <genres>
@@ -249,6 +613,216 @@
       <fullName>Isabella Martinez</fullName>
       <name>Isabella</name>
       <surname>Martinez</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
     </director>
   </movie>
 </filter>
