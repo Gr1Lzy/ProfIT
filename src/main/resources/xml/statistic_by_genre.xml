@@ -1,26 +1,26 @@
-<ListN>
+<statistics>
   <item>
-    <value>Drama</value>
-    <count>12</count>
+    <key>Drama</key>
+    <value>12</value>
   </item>
   <item>
-    <value>Action</value>
-    <count>8</count>
+    <key>Action</key>
+    <value>8</value>
   </item>
   <item>
-    <value>Sci-Fi</value>
-    <count>4</count>
+    <key>Sci-Fi</key>
+    <value>4</value>
   </item>
   <item>
-    <value>Adventure</value>
-    <count>4</count>
+    <key>Adventure</key>
+    <value>4</value>
   </item>
   <item>
-    <value>Crime</value>
-    <count>4</count>
+    <key>Crime</key>
+    <value>4</value>
   </item>
   <item>
-    <value>Romance</value>
-    <count>4</count>
+    <key>Romance</key>
+    <value>4</value>
   </item>
-</ListN>
+</statistics>

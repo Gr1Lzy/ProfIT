@@ -2,16 +2,18 @@ package com.github.project.writer;
 
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.github.project.MovieFilter;
+import com.github.project.model.xml.Item;
+import com.github.project.model.xml.StatisticWrapper;
+import com.github.project.util.MovieFilter;
 import com.github.project.exeption.MovieWriteException;
 import com.github.project.model.Movie;
-import com.github.project.model.xml.Item;
 import com.github.project.util.Filter;
 import com.github.project.util.Statistic;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class XMLWriter {
     private static final String PATH = "./src/main/resources/xml/";
@@ -36,7 +38,7 @@ public class XMLWriter {
                 .toList();
 
         try {
-            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), items);
+            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), new StatisticWrapper(items));
         } catch (IOException e) {
             throw new MovieWriteException("Cannot write movie ", e);
         }
@@ -62,7 +64,7 @@ public class XMLWriter {
         }
 
         try {
-            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), filteredMovies);
+            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"),filteredMovies);
         } catch (IOException e) {
             throw new MovieWriteException("Cannot write movie ", e);
         }

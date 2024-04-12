@@ -1,6 +1,7 @@
 package com.github.project;
 
-import com.github.project.reader.JSONReader;
+import com.github.project.reader.JSONParser;
+import com.github.project.util.MovieFilter;
 import com.github.project.writer.XMLWriter;
 
 import java.util.Scanner;
@@ -13,7 +14,7 @@ public class Console {
         Logger logger = Logger.getLogger(Main.class.getName());
 
         Scanner scanner = new Scanner(System.in);
-        JSONReader jsonReader = new JSONReader();
+        JSONParser jsonReader = new JSONParser();
         XMLWriter xmlWriter = new XMLWriter();
 
         logger.info("Enter the path (empty = default path):");
@@ -29,7 +30,7 @@ public class Console {
             String filter = scanner.next();
             xmlWriter.writeByCondition(jsonReader.readAllFiles(path), MovieFilter.valueOf(filter));
         } else if (choice == 2) {
-            logger.info("Enter the filter (FILTER_BY_YEAR_LESS, FILTER_BY_YEAR_MORE, FILTER_BY_GENRE_NAME, FILTER_BY_GENRE_COUNT, FILTER_BY_DIRECTOR):");
+            logger.info("Enter the filter (FILTER_BY_YEAR_LESS, FILTER_BY_YEAR_MORE, FILTER_BY_GENRE_NAME, FILTER_BY_GENRE_COUNT):");
             String filter = scanner.next();
             logger.info("Enter the value:");
             String value = scanner.next();
