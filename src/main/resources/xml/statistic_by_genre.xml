@@ -1,50 +1,50 @@
 <statistics>
   <item>
     <value>Action</value>
-    <count>126</count>
+    <count>28222</count>
   </item>
   <item>
     <value>Adventure</value>
-    <count>57</count>
+    <count>14108</count>
   </item>
   <item>
     <value>Crime</value>
-    <count>46</count>
+    <count>86</count>
   </item>
   <item>
     <value>Drama</value>
-    <count>164</count>
+    <count>28304</count>
   </item>
   <item>
     <value>Family</value>
-    <count>3</count>
+    <count>1</count>
   </item>
   <item>
     <value>Fantasy</value>
-    <count>15</count>
+    <count>14024</count>
   </item>
   <item>
     <value>Horror</value>
-    <count>9</count>
+    <count>14022</count>
   </item>
   <item>
     <value>Mystery</value>
-    <count>23</count>
+    <count>28045</count>
   </item>
   <item>
     <value>Romance</value>
-    <count>57</count>
+    <count>14108</count>
   </item>
   <item>
     <value>Sci-Fi</value>
-    <count>65</count>
+    <count>28129</count>
   </item>
   <item>
     <value>Thriller</value>
-    <count>23</count>
+    <count>28045</count>
   </item>
   <item>
     <value>War</value>
-    <count>9</count>
+    <count>14022</count>
   </item>
 </statistics>
