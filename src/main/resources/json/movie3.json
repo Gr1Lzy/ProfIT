@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Enigma Code",
+    "year": 2015,
+    "genres": ["Thriller", "Mystery", "Action"],
+    "director": "Olivia Baker"
+  },
+  {
+    "title": "Eternal Sunshine",
+    "year": 2024,
+    "genres": ["Drama", "Romance", "Sci-Fi"],
+    "director": "Matthew Clarke"
+  },
+  {
+    "title": "The Secret Garden",
+    "year": 2019,
+    "genres": ["Family", "Fantasy", "Drama"],
+    "director": "Sophia Nguyen"
+  },
+  {
+    "title": "Lost Kingdom",
+    "year": 2022,
+    "genres": ["Adventure", "Action", "Fantasy"],
+    "director": "Nathan Patel"
+  },
+  {
+    "title": "The Forgotten Legacy",
+    "year": 2017,
+    "genres": ["Drama", "Mystery", "Thriller"],
+    "director": "Isabella Martinez"
+  }
+]
