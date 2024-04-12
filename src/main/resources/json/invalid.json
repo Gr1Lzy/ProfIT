@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "genres": "Drama",
+    "director": "Frank Darabont"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 5555,
+    "genres": ["Crime", "Drama"],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": ["Drama", "Romance"]
+  },
+  {
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Action", "Sci-Fi"],
+    "director": "Lana Wachowski"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": ["Drama", "Romance"],
+    "director": "James Cameron"
+  },
+  {
+  "title": "Lost in Time",
+  "year": 2020,
+  "genres": ["Sci-Fi", "Drama", "Romance"],
+  "director": "David Thompson"
+  },
+  {
+    "title": "Shadows of Destiny",
+    "year": 2018,
+    "genres": ["Fantasy", "Adventure", "Action"],
+    "director": "Sophie Roberts"
+  },
+  {
+    "title": "Into the Abyss",
+    "year": 2021,
+    "genres": ["Thriller", "Mystery", "Horror"],
+    "director": "Daniel Evans"
+  },
+  {
+    "title": "The Last Stand",
+    "year": 2016,
+    "genres": ["Action", "Drama", "War"],
+    "director": "Alexandra Lee"
+  },
+  {
+    "genres": ["Sci-Fi", "Thriller", "Mystery"],
+    "director": "Benjamin Harris"
+  },
+  {
+    "title": "Lost in Time",
+    "year": 2020,
+    "genres": ["Drama"],
+    "director": "David Thompson"
+  },
+  {
+    "title": "Shadows of Destiny",
+    "year": 2018,
+    "genres": ["Fantasy", "Adventure", "Action"],
+    "director": "Sophie Roberts"
+  },
+  {
+    "title": "Into the Abyss",
+    "year": 2021,
+    "genres": ["Thriller", "Mystery", "Horror"],
+    "director": "Daniel Evans"
+  },
+  {
+    "title": "The Last Stand",
+    "year": 2016,
+    "genres": ["Action", "Drama", "War"],
+    "director": "Alexandra Lee"
+  },
+  {
+    "title": "Infinite Dreams",
+    "year": 2023,
+    "genres": ["Sci-Fi", "Thriller", "Mystery"],
+    "director": "Benjamin Harris"
+  }
+]

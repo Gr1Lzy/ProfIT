@@ -1,66 +1,70 @@
 <statistics>
   <item>
     <value>1994</value>
-    <count>24</count>
+    <count>51</count>
   </item>
   <item>
     <value>1997</value>
-    <count>13</count>
+    <count>29</count>
   </item>
   <item>
     <value>1999</value>
-    <count>13</count>
+    <count>29</count>
   </item>
   <item>
     <value>2001</value>
-    <count>13</count>
+    <count>28</count>
   </item>
   <item>
     <value>2008</value>
-    <count>13</count>
+    <count>28</count>
   </item>
   <item>
     <value>2010</value>
-    <count>8</count>
+    <count>17</count>
   </item>
   <item>
     <value>2015</value>
-    <count>1</count>
+    <count>3</count>
   </item>
   <item>
     <value>2016</value>
-    <count>4</count>
+    <count>9</count>
   </item>
   <item>
     <value>2017</value>
-    <count>1</count>
+    <count>3</count>
   </item>
   <item>
     <value>2018</value>
-    <count>4</count>
+    <count>9</count>
   </item>
   <item>
     <value>2019</value>
-    <count>1</count>
+    <count>3</count>
   </item>
   <item>
     <value>2020</value>
-    <count>4</count>
+    <count>9</count>
   </item>
   <item>
     <value>2021</value>
-    <count>4</count>
+    <count>9</count>
   </item>
   <item>
     <value>2022</value>
-    <count>1</count>
+    <count>3</count>
   </item>
   <item>
     <value>2023</value>
-    <count>4</count>
+    <count>8</count>
   </item>
   <item>
     <value>2024</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>5555</value>
     <count>1</count>
   </item>
 </statistics>

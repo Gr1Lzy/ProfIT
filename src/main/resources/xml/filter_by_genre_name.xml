@@ -1,17 +1,6 @@
 <filter>
   <movie>
-    <title>The Shawshank Redemption</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Frank Darabont</fullName>
-      <name>Frank</name>
-      <surname>Darabont</surname>
-    </director>
-  </movie>
-  <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -25,47 +14,7 @@
     </director>
   </movie>
   <movie>
-    <title>Forrest Gump</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>Robert Zemeckis</fullName>
-      <name>Robert</name>
-      <surname>Zemeckis</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Dark Knight</title>
-    <year>2008</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Christopher Nolan</fullName>
-      <name>Christopher</name>
-      <surname>Nolan</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Lord of the Rings: The Fellowship of the Ring</title>
-    <year>2001</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Adventure</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Peter Jackson</fullName>
-      <name>Peter</name>
-      <surname>Jackson</surname>
-    </director>
-  </movie>
-  <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -79,6 +28,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Lost in Time</title>
     <year>2020</year>
     <genres>
@@ -93,6 +43,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Last Stand</title>
     <year>2016</year>
     <genres>
@@ -107,6 +58,120 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
     <title>Lost in Time</title>
     <year>2020</year>
     <genres>
@@ -121,6 +186,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Last Stand</title>
     <year>2016</year>
     <genres>
@@ -135,6 +201,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Lost in Time</title>
     <year>2020</year>
     <genres>
@@ -149,6 +216,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Last Stand</title>
     <year>2016</year>
     <genres>
@@ -163,164 +231,7 @@
     </director>
   </movie>
   <movie>
-    <title>The Shawshank Redemption</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Frank Darabont</fullName>
-      <name>Frank</name>
-      <surname>Darabont</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Pulp Fiction</title>
-    <year>1994</year>
-    <genres>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Quentin Tarantino</fullName>
-      <name>Quentin</name>
-      <surname>Tarantino</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Forrest Gump</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>Robert Zemeckis</fullName>
-      <name>Robert</name>
-      <surname>Zemeckis</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Dark Knight</title>
-    <year>2008</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Christopher Nolan</fullName>
-      <name>Christopher</name>
-      <surname>Nolan</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Lord of the Rings: The Fellowship of the Ring</title>
-    <year>2001</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Adventure</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Peter Jackson</fullName>
-      <name>Peter</name>
-      <surname>Jackson</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Titanic</title>
-    <year>1997</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>James Cameron</fullName>
-      <name>James</name>
-      <surname>Cameron</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Shawshank Redemption</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Frank Darabont</fullName>
-      <name>Frank</name>
-      <surname>Darabont</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Pulp Fiction</title>
-    <year>1994</year>
-    <genres>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Quentin Tarantino</fullName>
-      <name>Quentin</name>
-      <surname>Tarantino</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Forrest Gump</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>Robert Zemeckis</fullName>
-      <name>Robert</name>
-      <surname>Zemeckis</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Dark Knight</title>
-    <year>2008</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Christopher Nolan</fullName>
-      <name>Christopher</name>
-      <surname>Nolan</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Lord of the Rings: The Fellowship of the Ring</title>
-    <year>2001</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Adventure</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Peter Jackson</fullName>
-      <name>Peter</name>
-      <surname>Jackson</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Titanic</title>
-    <year>1997</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>James Cameron</fullName>
-      <name>James</name>
-      <surname>Cameron</surname>
-    </director>
-  </movie>
-  <movie>
+    <valid>true</valid>
     <title>Lost in Time</title>
     <year>2020</year>
     <genres>
@@ -335,6 +246,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Last Stand</title>
     <year>2016</year>
     <genres>
@@ -349,47 +261,7 @@
     </director>
   </movie>
   <movie>
-    <title>The Dark Knight</title>
-    <year>2008</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Christopher Nolan</fullName>
-      <name>Christopher</name>
-      <surname>Nolan</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Lord of the Rings: The Fellowship of the Ring</title>
-    <year>2001</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Adventure</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Peter Jackson</fullName>
-      <name>Peter</name>
-      <surname>Jackson</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Titanic</title>
-    <year>1997</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>James Cameron</fullName>
-      <name>James</name>
-      <surname>Cameron</surname>
-    </director>
-  </movie>
-  <movie>
+    <valid>true</valid>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -402,6 +274,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -415,6 +288,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -428,6 +302,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -442,6 +317,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -456,6 +332,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -469,47 +346,7 @@
     </director>
   </movie>
   <movie>
-    <title>The Dark Knight</title>
-    <year>2008</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Christopher Nolan</fullName>
-      <name>Christopher</name>
-      <surname>Nolan</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>The Lord of the Rings: The Fellowship of the Ring</title>
-    <year>2001</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Adventure</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Peter Jackson</fullName>
-      <name>Peter</name>
-      <surname>Jackson</surname>
-    </director>
-  </movie>
-  <movie>
-    <title>Titanic</title>
-    <year>1997</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>James Cameron</fullName>
-      <name>James</name>
-      <surname>Cameron</surname>
-    </director>
-  </movie>
-  <movie>
+    <valid>true</valid>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -522,6 +359,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -535,6 +373,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -548,6 +387,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -562,6 +402,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -576,6 +417,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -589,6 +431,295 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
     <title>Eternal Sunshine</title>
     <year>2024</year>
     <genres>
@@ -603,6 +734,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Secret Garden</title>
     <year>2019</year>
     <genres>
@@ -617,6 +749,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Forgotten Legacy</title>
     <year>2017</year>
     <genres>
@@ -631,6 +764,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -645,6 +779,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -659,6 +794,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -672,6 +808,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -684,6 +821,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -697,6 +835,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -710,6 +849,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -724,6 +864,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -738,6 +879,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -751,6 +893,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -765,6 +908,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -779,6 +923,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -792,6 +937,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -804,6 +950,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -817,6 +964,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -830,6 +978,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -844,6 +993,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -858,6 +1008,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -871,6 +1022,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -885,6 +1037,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -899,6 +1052,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -912,6 +1066,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -924,6 +1079,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -937,6 +1093,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -950,6 +1107,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Dark Knight</title>
     <year>2008</year>
     <genres>
@@ -964,6 +1122,7 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
     <title>The Lord of the Rings: The Fellowship of the Ring</title>
     <year>2001</year>
     <genres>
@@ -978,6 +1137,1216 @@
     </director>
   </movie>
   <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Eternal Sunshine</title>
+    <year>2024</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Matthew Clarke</fullName>
+      <name>Matthew</name>
+      <surname>Clarke</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Secret Garden</title>
+    <year>2019</year>
+    <genres>
+      <genre>Family</genre>
+      <genre>Fantasy</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Sophia Nguyen</fullName>
+      <name>Sophia</name>
+      <surname>Nguyen</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Forgotten Legacy</title>
+    <year>2017</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Mystery</genre>
+      <genre>Thriller</genre>
+    </genres>
+    <director>
+      <fullName>Isabella Martinez</fullName>
+      <name>Isabella</name>
+      <surname>Martinez</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Eternal Sunshine</title>
+    <year>2024</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+      <genre>Sci-Fi</genre>
+    </genres>
+    <director>
+      <fullName>Matthew Clarke</fullName>
+      <name>Matthew</name>
+      <surname>Clarke</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Secret Garden</title>
+    <year>2019</year>
+    <genres>
+      <genre>Family</genre>
+      <genre>Fantasy</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Sophia Nguyen</fullName>
+      <name>Sophia</name>
+      <surname>Nguyen</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Forgotten Legacy</title>
+    <year>2017</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Mystery</genre>
+      <genre>Thriller</genre>
+    </genres>
+    <director>
+      <fullName>Isabella Martinez</fullName>
+      <name>Isabella</name>
+      <surname>Martinez</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Lost in Time</title>
+    <year>2020</year>
+    <genres>
+      <genre>Sci-Fi</genre>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>David Thompson</fullName>
+      <name>David</name>
+      <surname>Thompson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Last Stand</title>
+    <year>2016</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Drama</genre>
+      <genre>War</genre>
+    </genres>
+    <director>
+      <fullName>Alexandra Lee</fullName>
+      <name>Alexandra</name>
+      <surname>Lee</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Titanic</title>
+    <year>1997</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>James Cameron</fullName>
+      <name>James</name>
+      <surname>Cameron</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Frank Darabont</fullName>
+      <name>Frank</name>
+      <surname>Darabont</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>Forrest Gump</title>
+    <year>1994</year>
+    <genres>
+      <genre>Drama</genre>
+      <genre>Romance</genre>
+    </genres>
+    <director>
+      <fullName>Robert Zemeckis</fullName>
+      <name>Robert</name>
+      <surname>Zemeckis</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Christopher Nolan</fullName>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <year>2001</year>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Peter Jackson</fullName>
+      <name>Peter</name>
+      <surname>Jackson</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
     <title>Titanic</title>
     <year>1997</year>
     <genres>

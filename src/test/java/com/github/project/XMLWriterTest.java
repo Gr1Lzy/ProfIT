@@ -20,11 +20,25 @@ class XMLWriterTest {
     @BeforeEach
     void setUp() {
         xmlWriter = new XMLWriter();
-        movieList =  jsonParser.readAllFiles("src/main/resources/json");
+        movieList = jsonParser.readAllFiles("src/main/resources/json");
+
     }
 
     @Test
     void testCreateStatisticXML() {
+        xmlWriter.writeByCondition(movieList, STATISTIC_BY_GENRE);
+        xmlWriter.writeByCondition(movieList, STATISTIC_BY_DIRECTOR);
+        xmlWriter.writeByCondition(movieList, STATISTIC_BY_YEAR);
+
+        assertTrue(new File("src/main/resources/xml/statistic_by_director.xml").exists());
+        assertTrue(new File("src/main/resources/xml/statistic_by_genre.xml").exists());
+        assertTrue(new File("src/main/resources/xml/statistic_by_year.xml").exists());
+    }
+
+    @Test
+    void invalidJsonFileWriteToXML() {
+        movieList = jsonParser.read(new File("src/main/resources/json/invalid.json"));
+
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_GENRE);
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_DIRECTOR);
         xmlWriter.writeByCondition(movieList, STATISTIC_BY_YEAR);
