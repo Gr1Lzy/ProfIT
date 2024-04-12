@@ -1,4 +1,4 @@
-package com.github.project.exeption;
+package com.github.project.reader;
 
 public class InvalidDirectoryException extends RuntimeException {
     public InvalidDirectoryException(String message) {

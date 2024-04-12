@@ -2,10 +2,10 @@ package com.github.project.writer;
 
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.github.project.model.wrapper.FilterWrapper;
 import com.github.project.model.xml.Item;
-import com.github.project.model.xml.StatisticWrapper;
+import com.github.project.model.wrapper.StatisticWrapper;
 import com.github.project.util.MovieFilter;
-import com.github.project.exeption.MovieWriteException;
 import com.github.project.model.Movie;
 import com.github.project.util.Filter;
 import com.github.project.util.Statistic;
@@ -13,7 +13,6 @@ import com.github.project.util.Statistic;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class XMLWriter {
     private static final String PATH = "./src/main/resources/xml/";
@@ -21,8 +20,8 @@ public class XMLWriter {
             .enable(SerializationFeature.INDENT_OUTPUT);
 
     public void writeByCondition(List<Movie> movies, MovieFilter condition) {
-        Map<String, Long> statisticInfo;
         Statistic statistic = new Statistic();
+        Map<String, Long> statisticInfo;
 
         switch (condition) {
             case STATISTIC_BY_GENRE -> statisticInfo = statistic.getByGenre(movies);
@@ -45,9 +44,8 @@ public class XMLWriter {
     }
 
     public void writeByConditionWithValue(List<Movie> movies, MovieFilter condition, String value) {
-        List<Movie> filteredMovies;
-
         Filter filter = new Filter();
+        List<Movie> filteredMovies;
 
         switch (condition) {
             case FILTER_BY_YEAR_LESS -> filteredMovies = filter.filterByYearLess(movies, value);
@@ -64,7 +62,7 @@ public class XMLWriter {
         }
 
         try {
-            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"),filteredMovies);
+            xmlMapper.writeValue(new File(PATH + condition.name().toLowerCase() + ".xml"), new FilterWrapper(filteredMovies));
         } catch (IOException e) {
             throw new MovieWriteException("Cannot write movie ", e);
         }

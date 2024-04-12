@@ -8,6 +8,10 @@ public class JSONFileFinder {
     public List<File> getAllFiles(String path) {
         File directory = new File(path);
 
-        return List.of(Objects.requireNonNull(directory.listFiles()));
+        if (!directory.exists() || !directory.isDirectory()) {
+            throw new InvalidDirectoryException("Invalid directory: " + path);
+        }
+
+        return List.of((Objects.requireNonNull(directory.listFiles())));
     }
 }

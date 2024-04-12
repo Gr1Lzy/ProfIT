@@ -1,4 +1,4 @@
-package com.github.project.exeption;
+package com.github.project.writer;
 
 public class MovieWriteException extends RuntimeException {
     public MovieWriteException(String message, Throwable cause) {

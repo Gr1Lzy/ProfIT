@@ -1,16 +1,19 @@
-package com.github.project.model.xml;
+package com.github.project.model.wrapper;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+import com.github.project.model.Movie;
 import lombok.AllArgsConstructor;
+import lombok.ToString;
 
 import java.util.List;
 
-@JacksonXmlRootElement(localName = "statistics")
+@JacksonXmlRootElement(localName = "filter")
 @AllArgsConstructor
-public class StatisticWrapper {
-    @JacksonXmlProperty(localName = "item")
+@ToString
+public class FilterWrapper {
+    @JacksonXmlProperty(localName = "movie")
     @JacksonXmlElementWrapper(useWrapping = false)
-    private final List<Item> items;
+    private List<Movie> movies;
 }
