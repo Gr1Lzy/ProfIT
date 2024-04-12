@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JSONParser {
-
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final JSONFileFinder jsonFileFinder = new JSONFileFinder();
 

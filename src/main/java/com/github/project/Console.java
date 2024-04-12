@@ -23,7 +23,7 @@ public class Console {
             path = "./src/main/resources/json/";
         }
 
-        logger.info("Enter 1. Statistic only 2. Filter by value");
+        logger.info("Enter 1. Statistic only 2. Filter by value (write 1 or 2)");
         int choice = scanner.nextInt();
         if (choice == 1) {
             logger.info("Enter the filter (STATISTIC_BY_GENRE, STATISTIC_BY_DIRECTOR, STATISTIC_BY_YEAR):");
@@ -32,7 +32,7 @@ public class Console {
         } else if (choice == 2) {
             logger.info("Enter the filter (FILTER_BY_YEAR_LESS, FILTER_BY_YEAR_MORE, FILTER_BY_GENRE_NAME, FILTER_BY_GENRE_COUNT):");
             String filter = scanner.next();
-            logger.info("Enter the value:");
+            logger.info("Enter the value (example: 1970 or Robert):");
             String value = scanner.next();
             xmlWriter.writeByConditionWithValue(jsonReader.readAllFiles(path), MovieFilter.valueOf(filter), value);
         }

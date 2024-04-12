@@ -1,5 +1,5 @@
-<ListN>
-  <item>
+<filter>
+  <movie>
     <title>The Shawshank Redemption</title>
     <year>1994</year>
     <genres>
@@ -10,8 +10,8 @@
       <name>Frank</name>
       <surname>Darabont</surname>
     </director>
-  </item>
-  <item>
+  </movie>
+  <movie>
     <title>Pulp Fiction</title>
     <year>1994</year>
     <genres>
@@ -23,8 +23,8 @@
       <name>Quentin</name>
       <surname>Tarantino</surname>
     </director>
-  </item>
-  <item>
+  </movie>
+  <movie>
     <title>Forrest Gump</title>
     <year>1994</year>
     <genres>
@@ -36,8 +36,8 @@
       <name>Robert</name>
       <surname>Zemeckis</surname>
     </director>
-  </item>
-  <item>
+  </movie>
+  <movie>
     <title>The Matrix</title>
     <year>1999</year>
     <genres>
@@ -49,8 +49,8 @@
       <name>Lana</name>
       <surname>Wachowski</surname>
     </director>
-  </item>
-  <item>
+  </movie>
+  <movie>
     <title>Titanic</title>
     <year>1997</year>
     <genres>
@@ -62,69 +62,5 @@
       <name>James</name>
       <surname>Cameron</surname>
     </director>
-  </item>
-  <item>
-    <title>The Shawshank Redemption</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Frank Darabont</fullName>
-      <name>Frank</name>
-      <surname>Darabont</surname>
-    </director>
-  </item>
-  <item>
-    <title>Pulp Fiction</title>
-    <year>1994</year>
-    <genres>
-      <genre>Crime</genre>
-      <genre>Drama</genre>
-    </genres>
-    <director>
-      <fullName>Quentin Tarantino</fullName>
-      <name>Quentin</name>
-      <surname>Tarantino</surname>
-    </director>
-  </item>
-  <item>
-    <title>Forrest Gump</title>
-    <year>1994</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>Robert Zemeckis</fullName>
-      <name>Robert</name>
-      <surname>Zemeckis</surname>
-    </director>
-  </item>
-  <item>
-    <title>The Matrix</title>
-    <year>1999</year>
-    <genres>
-      <genre>Action</genre>
-      <genre>Sci-Fi</genre>
-    </genres>
-    <director>
-      <fullName>Lana Wachowski</fullName>
-      <name>Lana</name>
-      <surname>Wachowski</surname>
-    </director>
-  </item>
-  <item>
-    <title>Titanic</title>
-    <year>1997</year>
-    <genres>
-      <genre>Drama</genre>
-      <genre>Romance</genre>
-    </genres>
-    <director>
-      <fullName>James Cameron</fullName>
-      <name>James</name>
-      <surname>Cameron</surname>
-    </director>
-  </item>
-</ListN>
+  </movie>
+</filter>

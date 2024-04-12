@@ -1,30 +1,70 @@
 <statistics>
   <item>
-    <key>Christopher Nolan</key>
-    <value>4</value>
+    <value>Christopher Nolan</value>
+    <count>2</count>
   </item>
   <item>
-    <key>Frank Darabont</key>
-    <value>2</value>
+    <value>David Thompson</value>
+    <count>2</count>
   </item>
   <item>
-    <key>Lana Wachowski</key>
-    <value>2</value>
+    <value>Benjamin Harris</value>
+    <count>2</count>
   </item>
   <item>
-    <key>Peter Jackson</key>
-    <value>2</value>
+    <value>Daniel Evans</value>
+    <count>2</count>
   </item>
   <item>
-    <key>Robert Zemeckis</key>
-    <value>2</value>
+    <value>Sophie Roberts</value>
+    <count>2</count>
   </item>
   <item>
-    <key>Quentin Tarantino</key>
-    <value>2</value>
+    <value>Alexandra Lee</value>
+    <count>2</count>
   </item>
   <item>
-    <key>James Cameron</key>
-    <value>2</value>
+    <value>Olivia Baker</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Frank Darabont</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Peter Jackson</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Robert Zemeckis</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Nathan Patel</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Lana Wachowski</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Matthew Clarke</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Sophia Nguyen</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Quentin Tarantino</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Isabella Martinez</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>James Cameron</value>
+    <count>1</count>
   </item>
 </statistics>
