@@ -30,7 +30,8 @@ public class Console {
             String filter = scanner.next();
             xmlWriter.writeByCondition(jsonReader.readAllFiles(path), MovieFilter.valueOf(filter));
         } else if (choice == 2) {
-            logger.info("Enter the filter (FILTER_BY_YEAR_LESS, FILTER_BY_YEAR_MORE, FILTER_BY_GENRE_NAME, FILTER_BY_GENRE_COUNT):");
+            logger.info("Enter the filter (FILTER_BY_YEAR_LESS, FILTER_BY_YEAR_MORE, FILTER_BY_GENRE_NAME, " +
+                    "FILTER_BY_GENRE_COUNT, FILTER_BY_DIRECTOR):");
             String filter = scanner.next();
             logger.info("Enter the value (example: 1970 or Robert):");
             String value = scanner.next();
