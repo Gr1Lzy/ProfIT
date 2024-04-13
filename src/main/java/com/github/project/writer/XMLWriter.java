@@ -35,7 +35,6 @@ public class XMLWriter {
 
         List<Item> items = statisticInfo.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                .sorted(Map.Entry.comparingByKey())
                 .map(entry -> new Item(entry.getKey(), entry.getValue()))
                 .toList();
 

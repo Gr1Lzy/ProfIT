@@ -1,5 +1,17 @@
 <statistics>
   <item>
+    <value>David Thompson</value>
+    <count>14022</count>
+  </item>
+  <item>
+    <value>Daniel Evans</value>
+    <count>14022</count>
+  </item>
+  <item>
+    <value>Sophie Roberts</value>
+    <count>14022</count>
+  </item>
+  <item>
     <value>Alexandra Lee</value>
     <count>14022</count>
   </item>
@@ -12,40 +24,12 @@
     <count>85</count>
   </item>
   <item>
-    <value>Daniel Evans</value>
-    <count>14022</count>
-  </item>
-  <item>
-    <value>David Thompson</value>
-    <count>14022</count>
-  </item>
-  <item>
-    <value>Frank Darabont</value>
-    <count>40</count>
-  </item>
-  <item>
-    <value>Isabella Martinez</value>
-    <count>1</count>
-  </item>
-  <item>
-    <value>James Cameron</value>
-    <count>46</count>
-  </item>
-  <item>
     <value>Lana Wachowski</value>
     <count>46</count>
   </item>
   <item>
-    <value>Matthew Clarke</value>
-    <count>1</count>
-  </item>
-  <item>
-    <value>Nathan Patel</value>
-    <count>1</count>
-  </item>
-  <item>
-    <value>Olivia Baker</value>
-    <count>1</count>
+    <value>James Cameron</value>
+    <count>46</count>
   </item>
   <item>
     <value>Peter Jackson</value>
@@ -56,15 +40,31 @@
     <count>41</count>
   </item>
   <item>
+    <value>Frank Darabont</value>
+    <count>40</count>
+  </item>
+  <item>
     <value>Robert Zemeckis</value>
     <count>40</count>
+  </item>
+  <item>
+    <value>Olivia Baker</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Nathan Patel</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Matthew Clarke</value>
+    <count>1</count>
   </item>
   <item>
     <value>Sophia Nguyen</value>
     <count>1</count>
   </item>
   <item>
-    <value>Sophie Roberts</value>
-    <count>14022</count>
+    <value>Isabella Martinez</value>
+    <count>1</count>
   </item>
 </statistics>
