@@ -21,7 +21,6 @@ class XMLWriterTest {
     void setUp() {
         xmlWriter = new XMLWriter();
         movieList = jsonParser.readAllFiles("src/main/resources/json");
-
     }
 
     @Test
