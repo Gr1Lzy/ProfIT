@@ -10,10 +10,10 @@ import lombok.ToString;
 @ToString
 public class Director {
     @JacksonXmlProperty(localName = "name")
-    String name;
+    private String name;
 
     @JacksonXmlProperty(localName = "surname")
-    String surname;
+    private String surname;
 
     public Director(String fullName) {
         parse(fullName);
