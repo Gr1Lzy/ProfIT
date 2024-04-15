@@ -18,7 +18,7 @@ public class Console {
         XMLWriter xmlWriter = new XMLWriter();
 
         logger.info("Enter the path (empty = default path):");
-        String path = scanner.next();
+        String path = scanner.nextLine();
         if (path.isEmpty()) {
             path = "./src/main/resources/json/";
         }
