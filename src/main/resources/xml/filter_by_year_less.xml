@@ -1,6 +1,20 @@
 <filter>
   <movie>
     <valid>true</valid>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <genres>
+      <genre>Crime</genre>
+      <genre>Drama</genre>
+    </genres>
+    <director>
+      <fullName>Quentin Tarantino</fullName>
+      <name>Quentin</name>
+      <surname>Tarantino</surname>
+    </director>
+  </movie>
+  <movie>
+    <valid>true</valid>
     <title>The Matrix</title>
     <year>1999</year>
     <genres>
