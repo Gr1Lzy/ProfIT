@@ -37,9 +37,25 @@
 
 # Приклад вхідних даних та вихідних файлів
 [Json файли](src/main/resources/json) на вхід.
-
+```
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "director": "Christopher Nolan"
+  }
+]
+```
 [XML файли](src/main/resources/xml) на вихід.
-
+```
+<statistics>
+  <item>
+    <value>Drama</value>
+    <count>28304</count>
+  </item>
+</statistics>
+```
 # Опис результатів експерименту з кількістю потоків
 ```
 Apr 18, 2024 4:20:57 PM com.github.project.reader.JSONThreadStatistic parseFilesWithThreadPool
