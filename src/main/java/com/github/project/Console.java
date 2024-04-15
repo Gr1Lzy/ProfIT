@@ -17,11 +17,8 @@ public class Console {
         JSONParser jsonReader = new JSONParser();
         XMLWriter xmlWriter = new XMLWriter();
 
-        logger.info("Enter the path (empty = default path):");
-        String path = scanner.nextLine();
-        if (path.isEmpty()) {
-            path = "./src/main/resources/json/";
-        }
+        logger.info("Enter the path( ./src/main/resources/json/ ):");
+        String path = scanner.next();
 
         logger.info("Enter 1. Statistic only 2. Filter by value (write 1 or 2)");
         int choice = scanner.nextInt();
