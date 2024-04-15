@@ -35,7 +35,7 @@
 * String *name* - ім`я
 * String *surname* - прізвище
 
-# Приклад вхідних даних
+# Приклад вхідних даних та вихідних файлів
 [Json файли](src/main/resources/json) на вхід.
 
 [XML файли](src/main/resources/xml) на вихід.
