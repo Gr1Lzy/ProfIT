@@ -7,8 +7,8 @@ import com.github.project.writer.XMLWriter;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class Console {
-    private Console() {}
+public class ConsoleApplication {
+    private ConsoleApplication() {}
 
     public static void run() {
         Logger logger = Logger.getLogger(Main.class.getName());

@@ -12,14 +12,6 @@ public class JSONThreadStatistic {
     private final JSONFileFinder jsonFileFinder = new JSONFileFinder();
     private final Logger logger = Logger.getLogger(JSONThreadStatistic.class.getName());
 
-    public static void main(String[] args) {
-        String path = "./src/main/resources/json/";
-        int[] threadCounts = {1, 2, 4, 8};
-
-        JSONThreadStatistic jsonThreadStatistic = new JSONThreadStatistic();
-        jsonThreadStatistic.start(path, threadCounts);
-    }
-
     public void start(String path, int[] threadCounts) {
         List<File> files = jsonFileFinder.getAllFiles(path);
 

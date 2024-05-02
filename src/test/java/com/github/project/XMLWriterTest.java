@@ -2,7 +2,9 @@ package com.github.project;
 
 import com.github.project.model.Movie;
 import com.github.project.reader.JSONParser;
+import com.github.project.reader.JSONThreadStatistic;
 import com.github.project.writer.XMLWriter;
+import org.jetbrains.annotations.TestOnly;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -21,6 +23,15 @@ class XMLWriterTest {
     void setUp() {
         xmlWriter = new XMLWriter();
         movieList = jsonParser.readAllFiles("src/main/resources/json");
+    }
+
+    @Test
+    void testThreadStatistic() {
+        String path = "./src/main/resources/json/";
+        int[] threadCounts = {1, 2, 4, 8};
+
+        JSONThreadStatistic jsonThreadStatistic = new JSONThreadStatistic();
+        jsonThreadStatistic.start(path, threadCounts);
     }
 
     @Test
