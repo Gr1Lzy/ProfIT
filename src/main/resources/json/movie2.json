@@ -1,0 +1,176 @@
+[
+  {
+    "title": "Lost in Time",
+    "year": 2020,
+    "genres": ["Sci-Fi", "Drama", "Romance"],
+    "director": "David Thompson"
+  },
+  {
+    "title": "Shadows of Destiny",
+    "year": 2018,
+    "genres": ["Fantasy", "Adventure", "Action"],
+    "director": "Sophie Roberts"
+  },
+  {
+    "title": "Into the Abyss",
+    "year": 2021,
+    "genres": ["Thriller", "Mystery", "Horror"],
+    "director": "Daniel Evans"
+  },
+  {
+    "title": "The Last Stand",
+    "year": 2016,
+    "genres": ["Action", "Drama", "War"],
+    "director": "Alexandra Lee"
+  },
+  {
+    "title": "Infinite Dreams",
+    "year": 2023,
+    "genres": ["Sci-Fi", "Thriller", "Mystery"],
+    "director": "Benjamin Harris"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Action", "Sci-Fi"],
+    "director": "Lana Wachowski"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": ["Action", "Adventure", "Drama"],
+    "director": "Peter Jackson"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": ["Drama", "Romance"],
+    "director": "James Cameron"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": ["Drama"],
+    "director": "Frank Darabont"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": ["Crime", "Drama"],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": ["Drama", "Romance"],
+    "director": "Robert Zemeckis"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Action", "Sci-Fi"],
+    "director": "Lana Wachowski"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": ["Action", "Adventure", "Drama"],
+    "director": "Peter Jackson"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": ["Drama", "Romance"],
+    "director": "James Cameron"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Action", "Sci-Fi"],
+    "director": "Lana Wachowski"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": ["Action", "Adventure", "Drama"],
+    "director": "Peter Jackson"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": ["Drama", "Romance"],
+    "director": "James Cameron"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": ["Drama"],
+    "director": "Frank Darabont"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": ["Crime", "Drama"],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": ["Drama", "Romance"],
+    "director": "Robert Zemeckis"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Action", "Sci-Fi"],
+    "director": "Lana Wachowski"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": ["Action", "Adventure", "Drama"],
+    "director": "Peter Jackson"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": ["Drama", "Romance"],
+    "director": "James Cameron"
+  }
+]
